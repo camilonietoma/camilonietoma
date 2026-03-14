@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://camilonietoma.github.io/sitemap.xml
+Sitemap: https://www.camilonietom.com/sitemap.xml
