@@ -27,8 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Assistant Professor in the Department of Political Science at the University of Texas at San Antonio (UTSA). My research examines the causes and consequences of political and criminal violence, state building, criminal governance, and transitional justice, with a regional focus on Latin America. I am interested in why some societies experience sustained outbreaks of violence, how state institutions and armed groups interact during conflict and its aftermath, and the mechanisms through which societies address human rights violations and rebuild governance after war.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research has been published in _British Journal of Political Science_, _Comparative Political Studies_, _Journal of Conflict Resolution_, _World Development_, among others. I received my PhD in Political Science from the University of Notre Dame in 2020, an MA in Public Policy from Universität Erfurt, and a BA in Political Science from Pontificia Universidad Javeriana in Bogotá, where I was born and raised. Before joining UTSA, I was a Postdoctoral Fellow at the Center for Inter-American Policy and Research (CIPR) at Tulane University
