@@ -3,7 +3,7 @@ layout: page
 title: publications
 permalink: /publications/
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 ## Peer-reviewed articles
 <!-- _pages/publications.md -->
