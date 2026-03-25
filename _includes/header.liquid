@@ -67,14 +67,14 @@
                     {% assign has_active_child = true %}
                   {% endif %}
                 {% endfor %}
-                <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
+                <li class="nav-item dropdown d-flex align-items-center {% if page.title == p.title or has_active_child %}active{% endif %}">
                   {% if p.permalink %}
                     <a class="nav-link" href="{{ p.permalink | relative_url }}">
                       {{- p.title -}}
                       {% if page.title == p.title or has_active_child %}<span class="sr-only">(current)</span>{% endif %}
                     </a>
                     <a
-                      class="nav-link dropdown-toggle dropdown-toggle-split px-1"
+                      class="nav-link dropdown-toggle dropdown-toggle-split p-0 pl-1"
                       href="#"
                       id="navbarDropdown"
                       role="button"
