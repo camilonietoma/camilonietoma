@@ -6,7 +6,7 @@ subtitle: Assistant Professor · University of Texas at San Antonio · San Anton
 profile:
   align: right
   image: prof.jpg
-  image_circular: false
+  image_circular: true
   more_info: >
     <p>Department of Political Science and Geography</p>
     <p>One UTSA Circle, MS 4.02.46</p>
@@ -19,7 +19,7 @@ announcements:
   scrollable: true
   limit: 5
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 3
 ---
