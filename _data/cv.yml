@@ -1,19 +1,19 @@
 cv:
   name: Camilo Nieto-Matiz
-  label: Assistant Professor of Political Science
-  email: camilo.nieto-matiz@utsa.edu
   location: San Antonio, TX
-  image: ""
-  summary: >
-    Assistant Professor in the Department of Political Science and Geography at the
-    University of Texas at San Antonio. Research interests include political violence,
-    state formation, criminal governance, and Latin American politics.
+  email: camilo.nieto-matiz@utsa.edu
 
   social_networks:
-    - network: Website
-      username: camilonietom.com
+    - network: GitHub
+      username: camilonietoma
+    - network: LinkedIn
+      username: camilonietom
 
   sections:
+    Research Interests:
+      - label: Topics
+        details: Political violence, state formation, criminal governance, Latin American politics.
+
     Professional Experience:
       - company: University of Texas at San Antonio
         position: Assistant Professor, Department of Political Science and Geography
@@ -48,6 +48,7 @@ cv:
     Education:
       - institution: University of Notre Dame
         location: Notre Dame, IN
+        url: https://www.nd.edu/
         area: Political Science
         studyType: Ph.D.
         start_date: 2014
@@ -74,143 +75,134 @@ cv:
         start_date: 2005
         end_date: 2009
 
-    Grants in Progress:
-      - title: "Spanish vs. English Language Media Consumption and Latino Political Incorporation"
+    Publications:
+      - title: "The Violent Path to Power: Violence Against Social Activism and the Rise of Criminal Politicians"
         authors:
-          - "National Science Foundation"
-        date: 2024
-        awarder: National Science Foundation
-        summary: "Co-PI with Walter Wilson, Nicole Wicha, Bryan Gervais, and Robert Preuhs. Requested amount: $992,978."
+          - Camilo Nieto-Matiz
+        publisher: Journal of Politics in Latin America
+        releaseDate: 2025
 
-    Grants and Awards:
+      - title: "State Violence and the Political Consequences of Property Rights: Evidence from Colombia"
+        authors:
+          - Camilo Nieto-Matiz
+        publisher: Studies in Comparative International Development
+        releaseDate: 2025
+
+      - title: "Spraying Conflict: Aerial Drug Eradication and Armed Violence in Colombia"
+        authors:
+          - Juan Felipe Campos-Contreras
+          - Camilo Nieto-Matiz
+          - Luis L. Schenoni
+        publisher: British Journal of Political Science
+        releaseDate: 2025
+
+      - title: "Mining and violence in Latin America: The state's coercive responses to anti-mining resistance"
+        authors:
+          - Camilo Nieto-Matiz
+          - Moisés Arce
+        publisher: World Development
+        releaseDate: 2024
+
+      - title: "Why Programmatic Parties Reduce Criminal Violence: Theory and Evidence from Brazil"
+        authors:
+          - Camilo Nieto-Matiz
+          - Natán Skigin
+        publisher: Research & Politics
+        releaseDate: 2023
+
+      - title: "When the state becomes complicit: mayors, criminal actors, and the deliberate weakening of the local state in Colombia"
+        authors:
+          - Camilo Nieto-Matiz
+        publisher: Comparative Political Studies
+        releaseDate: 2023
+
+      - title: "Containing large-scale criminal violence through internationalized prosecution"
+        authors:
+          - Camilo Nieto-Matiz
+          - Guillermo Trejo
+        publisher: Comparative Political Studies
+        releaseDate: 2023
+
+      - title: "Land and state capacity during civil wars: how land-based coalitions undermine property taxation in Colombia"
+        authors:
+          - Camilo Nieto-Matiz
+        publisher: Journal of Conflict Resolution
+        releaseDate: 2023
+
+      - title: "Backing Despots?: Foreign Aid and the Survival of Autocratic Regimes"
+        authors:
+          - Camilo Nieto-Matiz
+          - Luis Schenoni
+        publisher: Democracy and Security
+        releaseDate: 2020
+
+      - title: "Democracy in the Countryside: the Rural Sources of Violence against Voters in Colombia"
+        authors:
+          - Camilo Nieto-Matiz
+        publisher: Journal of Peace Research
+        releaseDate: 2019
+
+    Awards:
       - title: Dissertation Fellowship
         authors:
-          - "Harry Frank Guggenheim Foundation"
-        date: 2019
+          - Harry Frank Guggenheim Foundation
+        date: 2019-01-01
         awarder: Harry Frank Guggenheim Foundation
         summary: "Awarded for dissertation research on political violence and state capacity. Funding: $20,000."
 
       - title: Dissertation Fellowship
         authors:
-          - "Kellogg Institute for International Studies"
-        date: 2019
+          - Kellogg Institute for International Studies
+        date: 2019-01-01
         awarder: Kellogg Institute for International Studies
         summary: "Competitive fellowship supporting doctoral research. Funding: $21,500."
 
       - title: Graduate Research Grant
         authors:
-          - "Kellogg Institute for International Studies"
-        date: 2017
+          - Kellogg Institute for International Studies
+        date: 2017-01-01
         awarder: Kellogg Institute for International Studies
         summary: "Research grant for fieldwork and other activities. Funding: $8,500."
 
       - title: Travel Grant
         authors:
-          - "American Political Science Association"
-        date: 2016
+          - American Political Science Association
+        date: 2016-01-01
         awarder: American Political Science Association
         summary: "Support to present research at the APSA Annual Meeting. Funding: $400."
 
       - title: Notebaert Professional Development Fund
         authors:
-          - "University of Notre Dame"
-        date: 2016
+          - University of Notre Dame
+        date: 2016-01-01
         awarder: University of Notre Dame
         summary: "Grant for professional development activities. Funding: $2,000."
 
-      - title: Academic Scholarship and Stipend
+      - title: DAAD Academic Scholarship
         authors:
-          - "Deutscher Akademischer Austauschdienst (DAAD)"
-        date: 2011
+          - Deutscher Akademischer Austauschdienst
+        date: 2011-01-01
         awarder: DAAD
-        summary: "Supported graduate studies in Germany, 2011–2013."
+        summary: "Supported graduate studies in Germany, 2011-2013."
 
       - title: "'Virginia Gutiérrez de Pineda' Research Grant"
         authors:
-          - "Colciencias"
-        date: 2010
+          - Colciencias
+        date: 2010-01-01
         awarder: Colciencias
         summary: "Awarded for research project in Colombia."
 
-    Teaching:
-      - company: University of Texas at San Antonio
-        position: Graduate Courses
-        location: San Antonio, TX
-        start_date: 2022
-        end_date: present
-        highlights:
-          - "Global Development and Human Rights (Fall 2024; Fall 2022)"
-          - "Quantitative Research Methods (Spring 2024)"
-          - "Democracy in the Developing World (Fall 2023)"
-          - "Politics of Civil Wars (Spring 2023)"
+    Skills:
+      - name: Languages
+        level: ""
+        icon: fa-solid fa-hashtag
+        keywords: "Spanish (native), English (fluent), German (intermediate)"
 
-      - company: University of Texas at San Antonio
-        position: Undergraduate Courses
-        location: San Antonio, TX
-        start_date: 2022
-        end_date: present
-        highlights:
-          - "Politics of Civil Wars (Fall 2024)"
-          - "Latin America in the World (Fall 2023)"
-
-      - company: Tulane University
-        position: Undergraduate Courses
-        location: New Orleans, LA
-        start_date: 2020
-        end_date: 2022
-        highlights:
-          - "Comparative Politics (Spring 2021)"
-          - "Scope and Methods in Political Science (Fall 2020)"
-
-    Service:
-      - company: Latin American Studies Association
-        position: Co-chair, Subnational Politics and Society Section
-        location: ""
-        start_date: 2024
-        end_date: present
-
-      - company: Latin American Studies Association
-        position: Assistant to LASA President's Team, 2023 Annual Conference
-        location: ""
-        start_date: 2022
-        end_date: 2023
-
-      - company: Graduate Women in Science
-        position: Expert Reviewer, National Fellowship Program
-        location: ""
-        start_date: 2023
-        end_date: 2023
-
-      - company: University of Texas at San Antonio
-        position: Admissions Committee, Master's in Global Affairs
-        location: San Antonio, TX
-        start_date: 2023
-        end_date: present
-
-      - company: University of Texas at San Antonio
-        position: Academic Policy and Curriculum Committee (APCC)
-        location: San Antonio, TX
-        start_date: 2023
-        end_date: present
-
-    Academic Referee:
-      - name: Journals
+    References:
+      - name: Academic Referee
         icon: fa-solid fa-clipboard
         reference: >
           American Political Science Review, Comparative Political Studies,
           European Journal of Political Economy, Journal of Peace Research,
           Journal of Politics, Journal of Politics in Latin America,
           Latin American Research Review, Politics.
-
-    Professional Memberships:
-      - name: American Political Science Association
-        icon: fa-solid fa-tag
-        reference: Member
-
-      - name: Midwest Political Science Association
-        icon: fa-solid fa-tag
-        reference: Member
-
-      - name: Latin American Studies Association
-        icon: fa-solid fa-tag
-        reference: Member
