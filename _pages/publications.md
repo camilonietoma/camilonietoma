@@ -6,7 +6,7 @@ nav: true
 nav_order: 2
 ---
 ## Peer-Reviewed Articles
-{% bibliography -f journal_articles --template bib --group_by none %}
+{% bibliography -f papers --template bib --group_by none %}
 ---
 ## Working Papers
 {% bibliography -f working_papers --template bib --group_by none %}
