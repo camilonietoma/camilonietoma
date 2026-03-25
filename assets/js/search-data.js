@@ -23,19 +23,19 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/wpapers/";
               },
-            },{id: "nav-data",
-          title: "data",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/data/";
-          },
-        },{id: "nav-teaching",
+            },{id: "nav-teaching",
           title: "teaching",
           description: "Course materials, schedules, and resources for classes taught.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-data",
+          title: "data",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/data/";
           },
         },{id: "post-a-post-with-plotly-js",
         
