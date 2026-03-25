@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor · University of Texas at San Antonio · San Antonio, TX
+subtitle: 
 profile:
   align: right
   image: prof.jpg
-  image_circular: true
+  image_circular: false
   more_info: >
-    <p>Department of Political Science and Geography</p>
-    <p>One UTSA Circle, MS 4.02.46</p>
-    <p>San Antonio, TX 78249</p>
-    <p>camilo.nieto-matiz@utsa.edu</p>
+    <p style="font-family: Georgia, serif; font-size: 0.8rem;">Department of Political Science and Geography</p>
+    <p style="font-family: Georgia, serif; font-size: 0.8rem;">One UTSA Circle, MS 4.02.46</p>
+    <p style="font-family: Georgia, serif; font-size: 0.8rem;">San Antonio, TX 78249</p>
+    <p style="font-family: Georgia, serif; font-size: 0.8rem;">camilo.nieto-matiz@utsa.edu</p>
 selected_papers: false
 social: true
 announcements:
