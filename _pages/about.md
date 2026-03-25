@@ -12,10 +12,10 @@ profile:
     <p>One UTSA Circle, MS 4.02.46</p>
     <p>San Antonio, TX 78249</p>
     <p>camilo.nieto-matiz@utsa.edu</p>
-selected_papers: true
+selected_papers: false
 social: true
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 5
 latest_posts:
