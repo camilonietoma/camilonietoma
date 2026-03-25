@@ -1,0 +1,206 @@
+cv:
+  name: Camilo Nieto-Matiz
+  location: San Antonio, TX
+  email: camilo.nieto-matiz@utsa.edu
+
+  social_networks:
+    - network: GitHub
+      username: camilonietoma
+    - network: LinkedIn
+      username: camilonietom
+
+  sections:
+    Research Interests:
+      - label: Topics
+        details: Political violence, state formation, criminal governance, Latin American politics.
+
+     Experience:                          # ← was "Professional Experience"
+      - company: University of Texas at San Antonio
+        position: Assistant Professor, Department of Political Science and Geography
+        location: San Antonio, TX
+        start_date: 2022
+                                         # ← no end_date → shows "Present"
+      - company: University of Texas at San Antonio
+        position: Assistant Director, UTSA Center for Public Opinion Research
+        location: San Antonio, TX
+        start_date: 2024
+                                         # ← no end_date → shows "Present"
+      - company: Tulane University
+        position: Postdoctoral Fellow, Center for Inter-American Policy and Research
+        location: New Orleans, LA
+        start_date: 2020
+        end_date: 2022
+
+      - company: German Institute of Global Affairs
+        position: Research Fellow, Institute of Latin American Studies
+        location: Hamburg, Germany
+        start_date: 2013
+        end_date: 2014
+
+      - company: Centro de Investigación y Educación Popular
+        position: Junior Researcher, ODECOFI
+        location: Bogotá, Colombia
+        start_date: 2009
+        end_date: 2011
+
+    Education:
+      - institution: University of Notre Dame
+        location: Notre Dame, IN
+        url: https://www.nd.edu/
+        area: Political Science
+        studyType: Ph.D.
+        start_date: 2014
+        end_date: 2020
+
+      - institution: University of Notre Dame
+        location: Notre Dame, IN
+        area: Political Science
+        studyType: M.A.
+        start_date: 2014
+        end_date: 2016
+
+      - institution: Universität Erfurt
+        location: Erfurt, Germany
+        area: Public Policy, concentration in Conflict Studies
+        studyType: M.A.
+        start_date: 2011
+        end_date: 2013
+
+      - institution: Pontificia Universidad Javeriana
+        location: Bogotá, Colombia
+        area: Political Science
+        studyType: B.A.
+        start_date: 2005
+        end_date: 2009
+
+    Publications:
+      - title: "The Violent Path to Power: Violence Against Social Activism and the Rise of Criminal Politicians"
+        authors:
+          - Camilo Nieto-Matiz
+        publisher: Journal of Politics in Latin America
+        releaseDate: 2025
+
+      - title: "State Violence and the Political Consequences of Property Rights: Evidence from Colombia"
+        authors:
+          - Camilo Nieto-Matiz
+        publisher: Studies in Comparative International Development
+        releaseDate: 2025
+
+      - title: "Spraying Conflict: Aerial Drug Eradication and Armed Violence in Colombia"
+        authors:
+          - Juan Felipe Campos-Contreras
+          - Camilo Nieto-Matiz
+          - Luis L. Schenoni
+        publisher: British Journal of Political Science
+        releaseDate: 2025
+
+      - title: "Mining and violence in Latin America: The state's coercive responses to anti-mining resistance"
+        authors:
+          - Camilo Nieto-Matiz
+          - Moisés Arce
+        publisher: World Development
+        releaseDate: 2024
+
+      - title: "Why Programmatic Parties Reduce Criminal Violence: Theory and Evidence from Brazil"
+        authors:
+          - Camilo Nieto-Matiz
+          - Natán Skigin
+        publisher: Research & Politics
+        releaseDate: 2023
+
+      - title: "When the state becomes complicit: mayors, criminal actors, and the deliberate weakening of the local state in Colombia"
+        authors:
+          - Camilo Nieto-Matiz
+        publisher: Comparative Political Studies
+        releaseDate: 2023
+
+      - title: "Containing large-scale criminal violence through internationalized prosecution"
+        authors:
+          - Camilo Nieto-Matiz
+          - Guillermo Trejo
+        publisher: Comparative Political Studies
+        releaseDate: 2023
+
+      - title: "Land and state capacity during civil wars: how land-based coalitions undermine property taxation in Colombia"
+        authors:
+          - Camilo Nieto-Matiz
+        publisher: Journal of Conflict Resolution
+        releaseDate: 2023
+
+      - title: "Backing Despots?: Foreign Aid and the Survival of Autocratic Regimes"
+        authors:
+          - Camilo Nieto-Matiz
+          - Luis Schenoni
+        publisher: Democracy and Security
+        releaseDate: 2020
+
+      - title: "Democracy in the Countryside: the Rural Sources of Violence against Voters in Colombia"
+        authors:
+          - Camilo Nieto-Matiz
+        publisher: Journal of Peace Research
+        releaseDate: 2019
+
+    Awards:
+      - title: Dissertation Fellowship
+        authors:
+          - Harry Frank Guggenheim Foundation
+        date: 2019-01-01
+        awarder: Harry Frank Guggenheim Foundation
+        summary: "Awarded for dissertation research on political violence and state capacity. Funding: $20,000."
+
+      - title: Dissertation Fellowship
+        authors:
+          - Kellogg Institute for International Studies
+        date: 2019-01-01
+        awarder: Kellogg Institute for International Studies
+        summary: "Competitive fellowship supporting doctoral research. Funding: $21,500."
+
+      - title: Graduate Research Grant
+        authors:
+          - Kellogg Institute for International Studies
+        date: 2017-01-01
+        awarder: Kellogg Institute for International Studies
+        summary: "Research grant for fieldwork and other activities. Funding: $8,500."
+
+      - title: Travel Grant
+        authors:
+          - American Political Science Association
+        date: 2016-01-01
+        awarder: American Political Science Association
+        summary: "Support to present research at the APSA Annual Meeting. Funding: $400."
+
+      - title: Notebaert Professional Development Fund
+        authors:
+          - University of Notre Dame
+        date: 2016-01-01
+        awarder: University of Notre Dame
+        summary: "Grant for professional development activities. Funding: $2,000."
+
+      - title: DAAD Academic Scholarship
+        authors:
+          - Deutscher Akademischer Austauschdienst
+        date: 2011-01-01
+        awarder: DAAD
+        summary: "Supported graduate studies in Germany, 2011-2013."
+
+      - title: "'Virginia Gutiérrez de Pineda' Research Grant"
+        authors:
+          - Colciencias
+        date: 2010-01-01
+        awarder: Colciencias
+        summary: "Awarded for research project in Colombia."
+
+    Skills:
+      - name: Languages
+        level: ""
+        icon: fa-solid fa-hashtag
+        keywords: "Spanish (native), English (fluent), German (intermediate)"
+
+    References:
+      - name: Academic Referee
+        icon: fa-solid fa-clipboard
+        reference: >
+          American Political Science Review, Comparative Political Studies,
+          European Journal of Political Economy, Journal of Peace Research,
+          Journal of Politics, Journal of Politics in Latin America,
+          Latin American Research Review, Politics.
