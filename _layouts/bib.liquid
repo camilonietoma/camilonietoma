@@ -393,13 +393,14 @@
     {% endif %}
   </div>
 <script>
-  document.querySelectorAll('a.abstract').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var abstractDiv = this.closest('.col-sm-10').querySelector('.abstract');
-      if (abstractDiv) {
-        abstractDiv.classList.toggle('hidden');
-        abstractDiv.classList.toggle('open');
-      }
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('a.abstract').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var abstractDiv = this.closest('.col-sm-10').querySelector('div.abstract.hidden');
+        if (abstractDiv) {
+          abstractDiv.classList.toggle('open');
+        }
+      });
     });
   });
 </script>
