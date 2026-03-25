@@ -255,7 +255,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: journal_articles.bib
   bibliography_template: bib
   bibtex_filters: [latex, smallcaps, superscript]
 
