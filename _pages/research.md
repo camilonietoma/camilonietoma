@@ -4,6 +4,8 @@ title: research
 permalink: /research/
 nav: true
 nav_order: 1
+nav: true
+nav_order: 2
 dropdown: true
 children:
   - title: publications
@@ -18,3 +20,7 @@ My research examines political violence, state formation, and criminal governanc
   <a href="/publications/" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #ccc;">Publications</a>
   <a href="/working-papers/" class="btn btn-sm z-depth-0 ml-2" role="button" style="border: 1px solid #ccc;">Working Papers</a>
 </div>
+  - title: divider
+  - title: working papers
+    permalink: /wpapers/
+---

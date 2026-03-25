@@ -5,12 +5,6 @@ permalink: /publications/
 nav: false
 ---
 ## Peer-reviewed articles
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
 <div class="publications">
-
-{% bibliography %}
-
+{% bibliography -f journal_articles %}
 </div>
