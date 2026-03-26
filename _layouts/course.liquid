@@ -2,8 +2,16 @@
 layout: page
 ---
 <div class="course">
-  {% if page.instructor or page.term or page.location or page.time %}
+  {% if page.instructor or page.term or page.location or page.time or page.course_code or page.level or page.format or page.syllabus %}
     <div class="course-info">
+      {% if page.course_code %}
+        <p><strong>Course:</strong> {{ page.course_code }}</p>
+      {% endif %}
+
+      {% if page.level %}
+        <p><strong>Level:</strong> {{ page.level }}</p>
+      {% endif %}
+
       {% if page.instructor %}
         <p><strong>Instructor:</strong> {{ page.instructor }}</p>
       {% endif %}
@@ -12,12 +20,24 @@ layout: page
         <p><strong>Term:</strong> {{ page.term }}</p>
       {% endif %}
 
+      {% if page.format %}
+        <p><strong>Format:</strong> {{ page.format }}</p>
+      {% endif %}
+
       {% if page.location %}
         <p><strong>Location:</strong> {{ page.location }}</p>
       {% endif %}
 
       {% if page.time %}
-        <p><strong>Time:</strong> {{ page.time }}</p>
+        <p><strong>Schedule:</strong> {{ page.time }}</p>
+      {% endif %}
+
+      {% if page.syllabus %}
+        <p>
+          <a href="{{ page.syllabus | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-file-pdf"></i> Download Syllabus
+          </a>
+        </p>
       {% endif %}
     </div>
   {% endif %}

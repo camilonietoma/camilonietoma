@@ -1,12 +1,15 @@
 {% if site.teachings %}
   <div class="courses">
-    {% assign courses_by_year = site.teachings | sort: 'year' | reverse | group_by: 'year' %}
+    {% assign level_order = "Graduate,Undergraduate" | split: "," %}
+    {% assign courses_by_level = site.teachings | group_by: 'level' %}
 
-    {% for year_group in courses_by_year %}
-      <h2 class="year">{{ year_group.name }}</h2>
+    {% for level_name in level_order %}
+      {% assign level_group = courses_by_level | where: 'name', level_name | first %}
+      {% if level_group %}
+      <h2 class="year">{{ level_group.name }}</h2>
       <div class="course-list">
-        {% assign year_courses = year_group.items | sort: 'term' %}
-        {% for course in year_courses %}
+        {% assign level_courses = level_group.items | sort: 'year' | reverse %}
+        {% for course in level_courses %}
           <div class="course-item">
             <h3 class="course-title">
               <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
@@ -27,9 +30,18 @@
                 {{ course.description | markdownify }}
               </div>
             {% endif %}
+
+            {% if course.syllabus %}
+              <div class="course-syllabus">
+                <a href="{{ course.syllabus | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-file-pdf"></i> Download Syllabus
+                </a>
+              </div>
+            {% endif %}
           </div>
         {% endfor %}
       </div>
+      {% endif %}
     {% endfor %}
   </div>
 {% else %}
