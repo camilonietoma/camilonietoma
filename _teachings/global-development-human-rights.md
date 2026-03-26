@@ -26,13 +26,13 @@ This seminar introduces graduate students to the study of human rights by examin
 
 ## Requirements
 
-| Component | Weight |
-|-----------|--------|
-| Participation | 25% |
-| Response Papers (three, ~2 pages each) | 25% |
-| Paper Proposal | 10% |
-| Presentation | 10% |
-| Research Paper (~20 pages) | 30% |
+| Component                              | Weight |
+| -------------------------------------- | ------ |
+| Participation                          | 25%    |
+| Response Papers (three, ~2 pages each) | 25%    |
+| Paper Proposal                         | 10%    |
+| Presentation                           | 10%    |
+| Research Paper (~20 pages)             | 30%    |
 
 ## Topics
 

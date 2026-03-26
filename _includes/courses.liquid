@@ -1,46 +1,46 @@
 {% if site.teachings %}
   <div class="courses">
-    {% assign level_order = "Graduate,Undergraduate" | split: "," %}
+    {% assign level_order = 'Graduate,Undergraduate' | split: ',' %}
     {% assign courses_by_level = site.teachings | group_by: 'level' %}
 
     {% for level_name in level_order %}
       {% assign level_group = courses_by_level | where: 'name', level_name | first %}
       {% if level_group %}
-      <h2 class="year">{{ level_group.name }}</h2>
-      <div class="course-list">
-        {% assign level_courses = level_group.items | sort: 'year' | reverse %}
-        {% for course in level_courses %}
-          <div class="course-item">
-            <h3 class="course-title">
-              <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
-            </h3>
+        <h2 class="year">{{ level_group.name }}</h2>
+        <div class="course-list">
+          {% assign level_courses = level_group.items | sort: 'year' | reverse %}
+          {% for course in level_courses %}
+            <div class="course-item">
+              <h3 class="course-title">
+                <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+              </h3>
 
-            <div class="course-meta">
-              {% if course.term %}
-                <span class="course-term">{{ course.term }}</span>
+              <div class="course-meta">
+                {% if course.term %}
+                  <span class="course-term">{{ course.term }}</span>
+                {% endif %}
+
+                {% if course.instructor %}
+                  <span class="course-instructor">{{ course.instructor }}</span>
+                {% endif %}
+              </div>
+
+              {% if course.description %}
+                <div class="course-description">
+                  {{ course.description | markdownify }}
+                </div>
               {% endif %}
 
-              {% if course.instructor %}
-                <span class="course-instructor">{{ course.instructor }}</span>
+              {% if course.syllabus %}
+                <div class="course-syllabus">
+                  <a href="{{ course.syllabus | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-file-pdf"></i> Download Syllabus
+                  </a>
+                </div>
               {% endif %}
             </div>
-
-            {% if course.description %}
-              <div class="course-description">
-                {{ course.description | markdownify }}
-              </div>
-            {% endif %}
-
-            {% if course.syllabus %}
-              <div class="course-syllabus">
-                <a href="{{ course.syllabus | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">
-                  <i class="fas fa-file-pdf"></i> Download Syllabus
-                </a>
-              </div>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
+          {% endfor %}
+        </div>
       {% endif %}
     {% endfor %}
   </div>
