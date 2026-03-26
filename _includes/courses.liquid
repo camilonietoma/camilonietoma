@@ -27,6 +27,14 @@
                 {{ course.description | markdownify }}
               </div>
             {% endif %}
+
+            {% if course.syllabus %}
+              <div class="course-syllabus">
+                <a href="{{ course.syllabus | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-file-pdf"></i> Download Syllabus
+                </a>
+              </div>
+            {% endif %}
           </div>
         {% endfor %}
       </div>
