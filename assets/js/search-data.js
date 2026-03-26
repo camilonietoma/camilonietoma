@@ -25,7 +25,7 @@ ninja.data = [{
               },
             },{id: "nav-teaching",
           title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
+          description: "Courses taught at the University of Texas at San Antonio.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -450,16 +450,26 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+            },},{id: "teachings-democracy-and-democratic-erosion",
+          title: 'Democracy and Democratic Erosion',
+          description: "An in-depth exploration of democracy, democratization, and democratic erosion through competing theoretical explanations. Organized around three core questions — Why do democracies emerge? Why do democracies erode? Why do some democracies resist erosion while others succumb?",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+              window.location.href = "/teachings/democracy-democratic-erosion/";
+            },},{id: "teachings-global-development-and-human-rights",
+          title: 'Global Development and Human Rights',
+          description: "Introduces graduate students to the study of human rights by examining the political, social, and institutional forces that shape patterns of repression and accountability — from the origins of human rights norms to transitional justice, advocacy networks, and international legal compliance.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teachings/global-development-human-rights/";
+            },},{id: "teachings-latin-american-politics",
+          title: 'Latin American Politics',
+          description: "Examines the political forces that have shaped Latin America over the past two centuries — state formation, violence, democratization, and citizenship — organized thematically around scholarly debates rather than country-by-country surveys.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/latin-american-politics/";
+            },},{id: "teachings-politics-of-civil-wars",
+          title: 'Politics of Civil Wars',
+          description: "Examines the causes, dynamics, and aftermath of civil wars — covering security dilemmas, greed vs. grievance debates, social networks, recruitment, violence against civilians, counterinsurgency, rebel governance, ideology, war termination, and long-term legacies.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/politics-civil-wars/";
             },},{
         id: 'social-cv',
         title: 'CV',
