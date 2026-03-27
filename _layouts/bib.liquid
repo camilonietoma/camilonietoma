@@ -299,17 +299,4 @@
       </div>
     {% endif %}
   </div>
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('a.abstract').forEach(function(btn) {
-      btn.addEventListener('click', function() {
-        var entry = this.closest('.citation-entry');
-        if (entry) {
-          var abstractDiv = entry.querySelector('div.abstract.hidden');
-          if (abstractDiv) abstractDiv.classList.toggle('open');
-        }
-      });
-    });
-  });
-</script>
 </div>
