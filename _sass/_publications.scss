@@ -67,6 +67,42 @@
         }
       }
 
+      .citation-inline {
+        font-size: 0.95rem;
+        line-height: 1.5;
+
+        .title {
+          font-style: italic;
+        }
+
+        .author {
+          > em {
+            border-bottom: 1px solid;
+            font-style: normal;
+          }
+
+          a {
+            border-bottom: 1px dashed var(--global-theme-color);
+
+            &:hover {
+              border-bottom-style: solid;
+              text-decoration: none;
+            }
+          }
+
+          > span.more-authors {
+            color: var(--global-text-color-light);
+            border-bottom: 1px dashed var(--global-text-color-light);
+            cursor: pointer;
+
+            &:hover {
+              color: var(--global-text-color);
+              border-bottom: 1px dashed var(--global-text-color);
+            }
+          }
+        }
+      }
+
       .title {
         font-weight: bolder;
       }
@@ -99,22 +135,49 @@
       }
 
       .links {
+        margin-top: 0.3rem;
+
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
+          font-size: 0.7rem;
+          padding: 0.15rem 0.7rem;
+          border-radius: 20px;
+          margin-right: 0.25rem;
+          margin-bottom: 0.25rem;
+          display: inline-block;
+          background-color: var(--global-theme-color);
+          color: var(--global-hover-text-color);
+          border: 1px solid var(--global-theme-color);
+          text-decoration: none;
 
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            opacity: 0.8;
+            text-decoration: none;
           }
         }
+
+        a.abstract.btn,
+        a.bibtex.btn {
+          background-color: transparent;
+          color: var(--global-theme-color);
+          border: 1px solid var(--global-theme-color);
+
+          &:hover {
+            background-color: var(--global-theme-color);
+            color: var(--global-hover-text-color);
+            opacity: 1;
+          }
+        }
+
         a.award.btn {
-          border-color: var(--global-highlight-color);
+          background-color: transparent;
+          color: var(--global-highlight-color);
+          border: 1px solid var(--global-highlight-color);
+
+          &:hover {
+            background-color: var(--global-highlight-color);
+            color: var(--global-hover-text-color);
+            opacity: 1;
+          }
         }
       }
 
