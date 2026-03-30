@@ -26,12 +26,12 @@ This course examines the causes, dynamics, and aftermath of civil wars. Topics i
 
 ## Requirements
 
-| Component | Weight |
-|-----------|--------|
-| Participation | 20% |
-| Midterm Exam | 25% |
-| Final Exam | 25% |
-| Research Paper (10–12 pages) | 30% |
+| Component                    | Weight |
+| ---------------------------- | ------ |
+| Participation                | 20%    |
+| Midterm Exam                 | 25%    |
+| Final Exam                   | 25%    |
+| Research Paper (10–12 pages) | 30%    |
 
 ## Topics
 
@@ -51,15 +51,15 @@ This course examines the causes, dynamics, and aftermath of civil wars. Topics i
 
 ## Films
 
-- *No Man's Land* (2001)
-- *Blood Diamond* (2006)
-- *The Motorcycle Diaries* (2005)
-- *The East* (2020)
-- *La Sierra* (2005)
-- *Hotel Rwanda* (2004)
-- *The Act of Killing* (2012)
-- *Restrepo* (2010)
-- *Beasts of No Nation* (2015)
-- *5 Broken Cameras* (2011)
-- *The Look of Silence* (2014)
-- *The Siege of Jadotville* (2016)
+- _No Man's Land_ (2001)
+- _Blood Diamond_ (2006)
+- _The Motorcycle Diaries_ (2005)
+- _The East_ (2020)
+- _La Sierra_ (2005)
+- _Hotel Rwanda_ (2004)
+- _The Act of Killing_ (2012)
+- _Restrepo_ (2010)
+- _Beasts of No Nation_ (2015)
+- _5 Broken Cameras_ (2011)
+- _The Look of Silence_ (2014)
+- _The Siege of Jadotville_ (2016)

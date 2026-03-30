@@ -26,23 +26,23 @@ This course examines the political forces that have shaped Latin America over th
 
 ## Requirements
 
-| Component | Weight |
-|-----------|--------|
-| Participation | 20% |
-| Midterm Exam | 25% |
-| Final Exam | 25% |
-| Research Paper (10–12 pages) | 30% |
+| Component                    | Weight |
+| ---------------------------- | ------ |
+| Participation                | 20%    |
+| Midterm Exam                 | 25%    |
+| Final Exam                   | 25%    |
+| Research Paper (10–12 pages) | 30%    |
 
 ### Research Paper Milestones
 
-| Date | Task |
-|------|------|
+| Date        | Task                                         |
+| ----------- | -------------------------------------------- |
 | February 17 | Research question and justification (1 page) |
-| March 3 | Annotated bibliography (5 sources) |
-| March 24 | Evidence strategy memo (2 pages) |
-| April 14 | Argument draft (5 pages) — peer review |
-| April 28 | Introduction draft (3–4 pages) — peer review |
-| May 7 | Final paper due |
+| March 3     | Annotated bibliography (5 sources)           |
+| March 24    | Evidence strategy memo (2 pages)             |
+| April 14    | Argument draft (5 pages) — peer review       |
+| April 28    | Introduction draft (3–4 pages) — peer review |
+| May 7       | Final paper due                              |
 
 ## Topics
 
