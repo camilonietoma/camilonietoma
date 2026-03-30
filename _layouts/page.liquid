@@ -8,6 +8,13 @@ layout: default
   </style>
 {% endif %}
 
+{% if page.banner_image %}
+  <div
+    class="page-banner"
+    style="background-image: url('{{ page.banner_image | relative_url }}')"
+  ></div>
+{% endif %}
+
 <div class="post">
   <article>
     {{ content }}

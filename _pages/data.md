@@ -4,6 +4,7 @@ title: data
 permalink: /data/
 nav: true
 nav_order: 3
+banner_image: /assets/img/banner-data.jpg
 ---
 
 <style>
