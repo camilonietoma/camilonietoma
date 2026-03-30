@@ -3,6 +3,7 @@ layout: page
 title: publications
 permalink: /publications/
 nav: false
+banner_image: /assets/img/banner-publications.jpg
 ---
 ## Peer-reviewed articles
 
