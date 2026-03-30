@@ -215,6 +215,51 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Social icons inside profile column (smaller size)
+
+.profile-social {
+  text-align: left;
+  margin-top: 0.5rem;
+
+  .contact-icons {
+    font-size: 1.4rem;
+
+    a {
+      img {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-bottom: 0.2rem;
+        margin-right: 0.3rem;
+      }
+
+      svg {
+        width: 1.3rem;
+        height: 1.4rem;
+        margin-bottom: 0.2rem;
+        margin-right: 0.3rem;
+
+        image {
+          width: 1.3rem;
+          height: 1.3rem;
+        }
+      }
+
+      i::before {
+        color: var(--global-text-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+
+      &:hover {
+        text-decoration: none;
+
+        i::before {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;
